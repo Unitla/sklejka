@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.szymon.sklejka.BattleActivity">
+
+    <ImageView
+        android:id="@+id/imageView_paladin"
+        android:layout_width="228dp"
+        android:layout_height="294dp"
+        app:srcCompat="@mipmap/pixel_sword"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/textView_battle"
+        android:layout_width="389dp"
+        android:layout_height="46dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:textSize="24dp"/>
+</android.support.constraint.ConstraintLayout>
